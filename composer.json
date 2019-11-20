@@ -1,0 +1,24 @@
+{
+    "name": "bricksasp/shop",
+    "description": "bricksasp shop模块",
+    "keywords": ["yii2", "shop"],
+    "type": "yii2-extension",
+    "support": {
+        "issues": "https://github.com/bricksasp/shop/issues",
+        "source": "https://github.com/bricksasp/shop"
+    },
+    "authors": [
+        {
+            "name": "bricksasp",
+            "email": "649909457@qq.com"
+        }
+    ],
+    "require": {
+        "bricksasp/base": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bricksasp\\shop\\": ""
+        }
+    }
+}
