@@ -31,6 +31,7 @@ class SettingController extends BaseController {
 	public function actionUpdate() {
 		$data = Yii::$app->request->post();
         if (Setting::saveData($data,$this->dataOwnerUid(), 'shop_')) {
+        	Setting::saveData($data,$this->dataOwnerUid(), 'wx_');
             return $this->success();
         }
         return $this->fail();

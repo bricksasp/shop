@@ -28,7 +28,7 @@ class HomeController extends \bricksasp\base\BaseController
     }
 
     /**
-     * @OA\Get(path="/home/banner",
+     * @OA\Get(path="/shop/home/banner",
      *   summary="横幅列表",
      *   tags={"shop模块"},
      *   @OA\Response(
@@ -60,7 +60,7 @@ class HomeController extends \bricksasp\base\BaseController
     }
 
     /**
-     * @OA\Get(path="/home/setting",
+     * @OA\Get(path="/shop/home/setting",
      *   summary="shop设置",
      *   tags={"shop模块"},
      *   @OA\Parameter(
